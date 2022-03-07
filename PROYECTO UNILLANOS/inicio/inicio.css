@@ -10,6 +10,7 @@
 
 body{
     background-color: #fff;
+    
 
 }
 /* Barra de navegacion */
@@ -71,8 +72,9 @@ header .navbar a{
 }
 
 .slider img{
-    margin-top: 6rem;
-    width: 100%;
+    
+    margin-top: 7rem;
+    width: 85%;
 
 }
 @keyframes cambio {
