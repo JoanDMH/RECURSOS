@@ -1,0 +1,42 @@
+html
+
+lista desglosable:
+
+			<nav>
+			<p class="document1">CONTENIDO:</p>
+			<ul class="document1" id="menu">
+				<li><input type="checkbox" name="list id="ID"/>
+				<label for="ID">Realidad aumentada</label>
+				<ol class="interior"><br>
+					<li><a href="#subindice1">Diferencia entre RA y VR</a></li><br>
+					<li><a href="#subindice2">Historia</a></li><br>
+					<li><a href="#subindice3">Actualidad</a></li><br>
+					<li><a href="#subindice4">Tendencias</a></li><br>
+					<li><a href="#subindice5">A Futuro</a></li><br>
+				</ol>
+				</li>
+			</ul>
+			</nav>
+
+modificacion de la lista en css
+
+#menu .interior{
+	display: none;
+}
+#menu input:checked~ol{
+	display: block;}
+	
+.document1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding: 25px;
+}
+.document1 ul{
+	list-style: none;
+}
+.document1 ol{
+	list-style-type: upper-roman;
+}

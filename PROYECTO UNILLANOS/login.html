@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Incio Sesión</title>
     <link rel="stylesheet" href="style/login.css">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Runteams-MisionTIC/Proyecto_web/main/media/logo-favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/JoanDMH/RECURSOS/main/PROYECTO%20UNILLANOS/Imagen/icono.ico" type="image/x-icon">
+    <!-- pone el simbolo de google -->
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="login-container">
             <div class="login">
-                <img class="avatar" src="Imagen/logo.jpg" alt="logo">
+                <img class="avatar" src="https://raw.githubusercontent.com/JoanDMH/RECURSOS/main/PROYECTO%20UNILLANOS/Imagen/logo.jpg" alt="logo">
                 <h2>Inicio de sesión</h2>
+
                 <form action="">
-                    <input type="text" name="username" placeholder="Usuario" class="username">
-                    <input type="password" name="passaword" placeholder="Contraseña" class="passaword">
-                    <nav class="navbar">
-                        <button class="fab"><a class="paginaStiven" href="contenido_1.html">Siguiente</a></button>
-                    </nav>
+                    <input type="text" name="username" placeholder="Nombre" class="username" required/> 
+                    <input type="email" name="email" placeholder="Correo electrónico" class="email" required/>
+                    <input type="password" name="passaword" placeholder="Contraseña" class="passaword" required/>
+                  
+                    <!-- <input type="submit" name="Enviar" id="Enviar" value="Enviar"> -->
+
+                    <button class="submit"><a class="paginaStiven" href="contenido_1.html">Siguiente</a></button>
                     
                 </form>
+
                 <p>¿Ha olvidado su usuario o contraseña?</p>
                 <button class="fab"><i class="fab fa-google"></i>Continuar con Google</button>
             </div>

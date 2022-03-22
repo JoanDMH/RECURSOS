@@ -1,0 +1,37 @@
+codigo html del texto en las imagenes del carrusel:
+
+    <div class="slider">
+        <center>
+        <ul>
+            <li><img src="Imagen/ra_3.jpg" alt="imagen1" height="600px">
+				<p>REALIDAD AUMENTADA</p>
+				<p>Una nueva alternativa</p>
+			</li>
+            <li><img src="Imagen/ra_2.jpg" alt="imagen2"height="600px">
+				<p>Disponible en diferentes</p>
+				<p>tipos de celulares y tablets</p>
+			</li>
+            <li><img src="Imagen/ra_1.jpg" alt="imagen3" height="600px">
+				<p>Existen muchas apps que </p>
+				<p>usan la AR de diferentes formas</p>
+			</li>
+            <li><img src="Imagen/ra_4.webp" alt="imagen4" height="600px">
+				<p>La AR una herramienta que</p>
+				<p>es facil de usar en tu celular</p>
+			</li>
+        </ul>
+        </center>
+    </div>
+
+codigo css del texto:
+
+.slider p{
+	text-align: left;
+	font-size: 3.5rem;
+	color: white;
+	position: relative;
+	top: -200px;
+	left: 10%;
+	
+	transform: translate(0%, 0%);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 1);

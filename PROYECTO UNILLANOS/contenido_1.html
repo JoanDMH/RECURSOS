@@ -1,106 +1,207 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	    
-		<link rel="stylesheet" href="style/Estilos_inicio.css">
-		<meta charset="utf-8" />
-		<title>Realidad++ </title>
-		<link rel="shortcut icon" href="https://raw.githubusercontent.com/Runteams-MisionTIC/Proyecto_web/main/media/logo-favicon.ico" type="image/x-icon">
-	</head>
-	<body>
-		<header>
-			
-			
-				<a href="./inicio.html">
-					<img class="icono" src="Imagen/logo.jpg" alt="">
-				</a>
-		</header>
-
-		<div class=document1>	
-			<nav>
-			<h3>navegacion</h3>
-			</nav>
-			<div class="document2">
-				<div class="Introduccion">
-					<div class="texto">
-						<h1>Realidad aumentada.</h1>
-						<p>La realidad aumentada es una tecnología que consta de superponer imágenes, videos, información y en general cualquier contenido visual 
-						  al mundo real mediante dispositivos como head-mounted display., smartphone y computadoras.</p>
-					</div>	
-					<img src="img/RA_Img_Principal.png" alt="">
-				</div> <br> <br> <br>
-	
-				<div class="RA_vs_VR">
-					<div class="texto">
-						<h2>¿Cuál es la diferencia entre realidad aumentada y la realidad virtual?</h2>
-						<p>Con frecuencia se suele confundir estas dos tecnologías por su parentesco, pero son totalmente
-							 diferente en cuanto a su enfoque, objetivos y usos.
-					    </p> <br>
-						<p>La realidad virtual es una tecnología que se enfoca en simular una realidad 100% virtual en el cual el usuario perderá conciencia del
-							mundo exterior o mundo real para estar total inmerso en un mundo virtual donde podrás vivir una cantidad inmensa de experiencias, únicamente
-							limitado por el software, el hardware y en generar el propio creador del espacio vital.
-						</p> <br>
-						<p>Por el contrario la realidad aumentada se ejecuta en el mundo real con el objetivo de dar más información al usuario por medio de imágenes 
-                        virtuales.
-						</p> <br>
-					</div>
-					<img src="img/RA_vs_VR.png" alt="">
-				</div> <hr>
-
-				<div class="historia_RA">
-					<h2>Historia de la realidad aumentada.</h2> 
-					<p>La realidad aumentada hoy en dia es una tecnología que promete mucho sobre todo en lo proximos 8 años, pero ¿Como se origino esta
-					esta tecnologia?.
-					</p> <br>
-					<p>La primera vez que se ideo una idea de lo que prodia ser realidad aumentada como la definimos hoy fue en el año 1902 por el autor L.Frank Baum
-						 conocido por obras como el gran  mago de oz, este comenta la idea de “lentes/pantallas electrónicos que superponen información sobre seres vivos”.
-						 Los llamaba “Marcadores de carácter”.
-					</p>  <br> <br>
-
-					<div class="historia_RA_1">
-						<p>En 1957 el cinematógrafo Morton heiling, inventa un dispositivo el cual permitia a su usuario experimentar sensanciones realistas e inmersivas en cuanto a sonido, olores vibraciones y imagenes. 
-							Pretendia crear una experiencia cinematógrafica unica.
-						</p> <br>
-						<div class="historia_RA_1_1">
-							<p>Este fue nombrado por heiling como <strong>sensorama:</strong></p> <br>
-						   <img src="img/RA_historia_1.jfif" alt=""> <br>
-					   </div> <br> <hr>
-					</div> 
-
-					<div class="historia_RA_2">
-						<p>En 1966 el informático estadounidense Ivan Sutherland, fue contratado por la Universidad de
-							Harvard y se puso a trabajar en un nuevo proyecto revolucionario:un dispositivo de realidad virtual.
-						</p> <br>
-						<p>
-						   Este dispositivo permitia al usuario ver una sensilla linea 3D suspendida en el espacio ademas de se podía
-							mover su cabeza para verla desde cualquier ángulo.
-						</p> <br>
-						<div class="historia_RA_2_2">
-						   <p>Este fue denominado como  <strong>La espada de Damocles:</strong></p> <br>
-						  <img src="img/RA_historia_2.jpg" alt=""> <br>
-					   </div> <br> <hr>
-					</div>
-
-					<div class="historia_RA_3">
-						<p>En 1975, Myron Krueger estableció un laboratorio de realidad artificial llamado Videoplace. Con este se pretendia crear un
-							dispositivo que le permitia al usurio interactuar con objetos virtuales sin la necesidad de guantes o gafas.
-						</p> <br>
-						<div class="historia_RA_3_3">
-							<p>
-								El <strong>Videoplace</strong> utilizó proyectores, cámaras de video, hardware para fines especiales y siluetas en pantalla de los usuarios para colocar a los participantes en un entorno interactivo.
-								 Los usuarios en salas separadas en el laboratorio fueron capaces de interactuar entre sí a través de esta tecnología.
-							</p> <br>
-							<img src="img/RA_historia_3.gif" alt=""> <br>
-						</div> <br> <hr>
-					</div> 
-
-				
-
-
-				</div>
-			</div>
-		</div>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="Style/Estilos_inicio.css">
+	<meta charset="utf-8">
+	<title>Realidad++ </title>
+	<link rel="shortcut icon" href="https://raw.githubusercontent.com/JoanDMH/RECURSOS/main/PROYECTO%20UNILLANOS/Imagen/icono.ico" type="image/x-icon">
+	<!-- iconos de redes sociales -->
+	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+	<script>(function(){class RuffleMimeType{constructor(a,b,c){this.type=a,this.description=b,this.suffixes=c}}class RuffleMimeTypeArray{constructor(a){this.__mimetypes=[],this.__named_mimetypes={};for(let b of a)this.install(b)}install(a){let b=this.__mimetypes.length;this.__mimetypes.push(a),this.__named_mimetypes[a.type]=a,this[a.type]=a,this[b]=a}item(a){return this.__mimetypes[a]}namedItem(a){return this.__named_mimetypes[a]}get length(){return this.__mimetypes.length}}class RufflePlugin extends RuffleMimeTypeArray{constructor(a,b,c,d){super(d),this.name=a,this.description=b,this.filename=c}install(a){a.enabledPlugin||(a.enabledPlugin=this),super.install(a)}}class RufflePluginArray{constructor(a){this.__plugins=[],this.__named_plugins={};for(let b of a)this.install(b)}install(a){let b=this.__plugins.length;this.__plugins.push(a),this.__named_plugins[a.name]=a,this[a.name]=a,this[b]=a}item(a){return this.__plugins[a]}namedItem(a){return this.__named_plugins[a]}get length(){return this.__plugins.length}}const FLASH_PLUGIN=new RufflePlugin("Shockwave Flash","Shockwave Flash 32.0 r0","ruffle.js",[new RuffleMimeType("application/futuresplash","Shockwave Flash","spl"),new RuffleMimeType("application/x-shockwave-flash","Shockwave Flash","swf"),new RuffleMimeType("application/x-shockwave-flash2-preview","Shockwave Flash","swf"),new RuffleMimeType("application/vnd.adobe.flash-movie","Shockwave Flash","swf")]);function install_plugin(a){navigator.plugins.install||Object.defineProperty(navigator,"plugins",{value:new RufflePluginArray(navigator.plugins),writable:!1}),navigator.plugins.install(a),0<a.length&&!navigator.mimeTypes.install&&Object.defineProperty(navigator,"mimeTypes",{value:new RuffleMimeTypeArray(navigator.mimeTypes),writable:!1});for(var b=0;b<a.length;b+=1)navigator.mimeTypes.install(a[b])}install_plugin(FLASH_PLUGIN);})();</script><script src="contenido_1_files/ruffle.js"></script><script>(function(){class RuffleMimeType{constructor(a,b,c){this.type=a,this.description=b,this.suffixes=c}}class RuffleMimeTypeArray{constructor(a){this.__mimetypes=[],this.__named_mimetypes={};for(let b of a)this.install(b)}install(a){let b=this.__mimetypes.length;this.__mimetypes.push(a),this.__named_mimetypes[a.type]=a,this[a.type]=a,this[b]=a}item(a){return this.__mimetypes[a]}namedItem(a){return this.__named_mimetypes[a]}get length(){return this.__mimetypes.length}}class RufflePlugin extends RuffleMimeTypeArray{constructor(a,b,c,d){super(d),this.name=a,this.description=b,this.filename=c}install(a){a.enabledPlugin||(a.enabledPlugin=this),super.install(a)}}class RufflePluginArray{constructor(a){this.__plugins=[],this.__named_plugins={};for(let b of a)this.install(b)}install(a){let b=this.__plugins.length;this.__plugins.push(a),this.__named_plugins[a.name]=a,this[a.name]=a,this[b]=a}item(a){return this.__plugins[a]}namedItem(a){return this.__named_plugins[a]}refresh(){}get length(){return this.__plugins.length}}const FLASH_PLUGIN=new RufflePlugin("Shockwave Flash","Shockwave Flash 32.0 r0","ruffle.js",[new RuffleMimeType("application/futuresplash","Shockwave Flash","spl"),new RuffleMimeType("application/x-shockwave-flash","Shockwave Flash","swf"),new RuffleMimeType("application/x-shockwave-flash2-preview","Shockwave Flash","swf"),new RuffleMimeType("application/vnd.adobe.flash-movie","Shockwave Flash","swf")]);function install_plugin(a){navigator.plugins.install||Object.defineProperty(navigator,"plugins",{value:new RufflePluginArray(navigator.plugins),writable:!1}),navigator.plugins.install(a),0<a.length&&!navigator.mimeTypes.install&&Object.defineProperty(navigator,"mimeTypes",{value:new RuffleMimeTypeArray(navigator.mimeTypes),writable:!1});for(var b=0;b<a.length;b+=1)navigator.mimeTypes.install(a[b])}install_plugin(FLASH_PLUGIN);})();</script><script src="contenido_1_files/ruffle_002.js"></script>
+</head>
+       
+<body>
+	<header>
 		
+		
+			<a href="./inicio.html">
+				<img class="icono" src="https://raw.githubusercontent.com/JoanDMH/RECURSOS/main/PROYECTO%20UNILLANOS/Imagen/logo.jpg" alt="">
+			</a>
+			
+	</header>
+	<div class="document1">	
+		<nav>
+		<p class="document1">CONTENIDO:</p>
+		<ul class="document1" id="menu">
+			<li><input type="checkbox" name="list id="ID"/>
+			<label for="ID">Realidad aumentada</label>
+			<ol class="interior"><br>
+				<li><a href="#subindice1">Diferencia entre RA y VR</a></li><br>
+				<li><a href="#subindice2">Historia</a></li><br>
+				<li><a href="#subindice3">Actualidad</a></li><br>
+				<li><a href="#subindice4">Aplicaciones</a></li><br>
+				<li><a href="#subindice5">A Futuro</a></li><br>
+			</ol>
+			</li>
+		</ul>
+		</nav>
+
+
+		<div class="document2">
+			<div class="Introduccion">
+				<div class="texto">
+					<a name="back"></a>
+					<h1>Realidad aumentada.</h1>
+					<p>La realidad aumentada es una tecnología que consta de superponer imágenes, videos, información y en general cualquier contenido visual 
+						al mundo real mediante dispositivos como head-mounted display., smartphone y computadoras.</p>
+				</div>	
+				<img src="img/RA_Img_Principal.png" alt="">
+			</div> <br> <br> <br>
+
+			<div class="RA_vs_VR">
+				<div class="texto">
+					<!-- 1 -->
+					<a name="subindice1"></a>
+					<h2>¿Cuál es la diferencia entre realidad aumentada y la realidad virtual?</h2>
+					<p>Con frecuencia se suele confundir estas dos tecnologías por su parentesco, pero son totalmente
+							diferente en cuanto a su enfoque, objetivos y usos.
+					</p> <br>
+					<p>La realidad virtual es una tecnología que se enfoca en simular una realidad 100% virtual en el cual el usuario perderá conciencia del
+						mundo exterior o mundo real para estar total inmerso en un mundo virtual donde podrás vivir una cantidad inmensa de experiencias, únicamente
+						limitado por el software, el hardware y en generar el propio creador del espacio vital.
+					</p> <br>
+					<p>Por el contrario la realidad aumentada se ejecuta en el mundo real con el objetivo de dar más información al usuario por medio de imágenes 
+					virtuales.
+					</p> <br>
+				</div>
+				<img src="img/RA_vs_VR.png" alt="">
+			</div> <hr>
+
+			<div class="historia_RA">
+				<!-- 2 -->
+				<a name="subindice2"></a>
+				<h2>Historia de la realidad aumentada.</h2> 
+				<p>La realidad aumentada hoy en dia es una tecnología que promete mucho sobre todo en lo proximos 8 años, pero ¿Como se origino esta
+				esta tecnologia?.
+				</p> <br>
+				<p>La primera vez que se ideo una idea de lo que prodia ser realidad aumentada como la definimos hoy fue en el año 1902 por el autor L.Frank Baum
+						conocido por obras como el gran  mago de oz, este comenta la idea de “lentes/pantallas electrónicos que superponen información sobre seres vivos”.
+						Los llamaba “Marcadores de carácter”.
+				</p>  <br> <br>
+
+				<div class="historia_RA_1">
+					<p>En 1957 el cinematógrafo Morton heiling, inventa un dispositivo el cual permitia a su usuario experimentar sensanciones realistas e inmersivas en cuanto a sonido, olores vibraciones y imagenes. 
+						Pretendia crear una experiencia cinematógrafica unica.
+					</p> <br>
+					<div class="historia_RA_1_1">
+						<p>Este fue nombrado por heiling como <strong>sensorama:</strong></p> <br>
+						<img src="img/RA_historia_1.jfif" alt=""> <br>
+					</div> <br> <hr>
+				</div> 
+
+				<div class="historia_RA_2">
+					<p>En 1966 el informático estadounidense Ivan Sutherland, fue contratado por la Universidad de
+						Harvard y se puso a trabajar en un nuevo proyecto revolucionario:un dispositivo de realidad virtual.
+					</p> <br>
+					<p>
+						Este dispositivo permitia al usuario ver una sensilla linea 3D suspendida en el espacio ademas de se podía
+						mover su cabeza para verla desde cualquier ángulo.
+					</p> <br>
+					<div class="historia_RA_2_2">
+						<p>Este fue denominado como  <strong>La espada de Damocles:</strong></p> <br>
+						<img src="img/RA_historia_2.jpg" alt=""> <br>
+					</div> <br> <hr>
+				</div>
+
+				<div class="historia_RA_3">
+					
+					<p>En 1975, Myron Krueger estableció un laboratorio de realidad artificial llamado Videoplace. Con este se pretendia crear un
+						dispositivo que le permitia al usurio interactuar con objetos virtuales sin la necesidad de guantes o gafas.
+					</p> <br>
+					<div class="historia_RA_3_3">
+						<p>
+							El <strong>Videoplace</strong> utilizó proyectores, cámaras de video, hardware para fines especiales y siluetas en pantalla de los usuarios para colocar a los participantes en un entorno interactivo.
+								Los usuarios en salas separadas en el laboratorio fueron capaces de interactuar entre sí a través de esta tecnología.
+						</p> <br>
+						<img src="img/RA_historia_3.gif" alt=""> <br>
+					</div> <br> <hr>
+				</div> 
+			</div>
+			<div class="historia_RA">
+					<!-- 3 -->
+					<a name="subindice3"></a>
+					<h2>Situación actual</h2>
+					<p>La situacion actual de la realidad aumentada es prometedora, se a logrado grandes avances y ya en ciertos
+						mercados y ambitos de nuestra vida se encuentra sin que nosotros nos demos cuenta
+					</p> <br>
+					<div class="historia_RA_3_3">
+						<p>
+							Son multiples las empresas que apuestan por la realidad aumentada desde google,windows y apples con sus 
+							prototipos de gafas de realidad aumentada,tambien se esta manejando la implementacion con distintos
+								software en dispositivos moviles,proyectores,cascos de realidad aumentada tambien conocidos como HMD óptico.
+						</p> <br>
+						<img src="img/RA_historia_3.gif" alt=""> <br>
+					</div> <br> 
+			</div>
+			<hr>
+			<div class="historia_RA">
+					<!-- 4 -->
+					<a name="subindice4"></a>
+					<h2>Aplicaciones</h2>
+					<p>Las aplicaciones de la Realidad Aumentada son muy variadas y prácticamente en cualquier contexto de uso, se pueden encontrar formas de utilizarla mejorando el resultado. Algunos ejemplos de Realidad Aumentada serían los siguientes.
+					</p> <br>
+					<iframe width="500px" height="270px" src="https://www.youtube.com/embed/corbLqnV5Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+		
+					<div class="historia_RA_3_3">
+						
+						<p>
+							<br><br><b>Marketing</b><br>La publicidad impresa y en lugares de conveniencia sigue siendo a día de hoy un recurso que las marcas usan ampliamente para promocionarse. Una aplicación habitual de la realidad aumentada consiste en aumentar estos anuncios a través de una aplicación para móvil que se publica a través de los market stores. Por medio de la app se podría acceder a contenidos adicionales como videos o animaciones 3D, descuentos, regalos o similar. Otra posibilidad consiste en aumentar directamente los productos, por ejemplo, en un concesionario, se podría ver de forma superpuesta a cada  coche,  información adicional que muestre equipamientos opcionales o partes del motor que no se encuentran a la vista. Los catálogos aumentados son también muy habituales dentro de las  aplicaciones para el marketing. Permiten al usuario entender mejor como funciona un producto, como son los pasos para montarlo o como se integra en un conjunto mayor.
+						</p> <img src="img/marketing_ar.webp" alt=""> <br><br><br>
+
+					</div>
+					<div class="historia_RA_3_3">
+						
+						<p>
+							<br><br><b>Formación</b><br>Existen muchas formas de aplicar la Realidad Aumentada para mejorar la formación. Muchas veces debemos consultar un manual en papel mientras manipulamos elementos físicos, por ejemplo, cuando montamos un mueble o cuando se maneja una máquina. En estos casos, la Realidad Aumentada con gafas ofrece un enorme potencial, ya que además de dejarnos las manos libres para realizar el montaje, la   información se muestra en el lugar que más interese, o incluso superpuesta al objeto sobre el que hay que operar.<br>
+						</p> <img src="img/formacion_ar.webp" alt=""> <br><br><br>
+					</div>
+					<div class="historia_RA_3_3">
+						
+						<p>
+							<br><br><b>Educación</b><br>Los libros de texto nunca volverán a ser los mismos cuando se les incorpora realidad aumentada para disfrutar de forma interactiva y en 3d de lecciones de anatomía, química o historia. La posibilidad de vincular a los materiales escolares información tridimensional facilita enormemente la comprensión de las materias. Otro aspecto muy relevante de la aplicación de realidad aumentada en el mundo educativo es que aporta a los estudiantes un entorno interactivo con el conocimiento. La libertad de manipular los elementos 3D y de explorar las escenas, resulta muy entretenido y permite aumentar la motivación de los estudiantes para potenciar el ritmo de aprendizaje.
+						</p> <img src="img/eduacion_ar.webp" alt=""> <br><br><br>	
+					</div>
+					<div class="historia_RA_3_3">
+						
+						<p>
+							<br><br><b>Medicina</b><br>Uno de los aspectos más potentes de la realidad aumentada es la capacidad de mostrar cosas que no son visibles a simple vista. En el ámbito médico, esta posibilidad tiene multitud de aplicaciones. Por ejemplo, un cirujano podría tener información ampliada del paciente mientras está realizando una intervención. E incluso podría superponer al cuerpo de ese paciente unas guías que le indiquen por donde debe intervenir gracias al uso de imágenes médicas con realidad aumentada (TAC, radiografía o resonancia magnética). Una ventaja muy interesante de las gafas de realidad aumentad para los  entornos quirúrgicos es que se pueden manejar con la voz y los gestos, no es necesario tocar nada. De forma que no se impacta en la imprescindible esterilización de todo lo que hay en un quirófano.
+						</p> <img src="img/medicina_ar.webp" alt=""> <br><br><br>		
+					</div>
+					<div class="historia_RA_3_3">
+						
+						<p>
+							<br><br><b>Industria 4.0</b><br>La industria está siendo uno de los sectores en los que antes se está adoptando la tecnología de realidad aumentada. Aplicaciones en ámbitos como el  mantenimiento, el apoyo al montaje o el control de calidad son ya habituales en el mundo industrial. Los principales usos que se le da a esta tecnología están relacionados con la presentación de procedimientos guiados paso a paso, que indican a un operario como realizar un montaje o una reparación, o con sistemas de teleasistencia que facilitan la resolución de incidencias de forma remota, gracias a que un experto puede ayudar de forma más efectiva gracias a las instrucciones en pantalla basadas en realidad aumentada en el objeto sobre el que hay que operar.
+						</p> <img src="img/industria_ar.webp" alt=""> <br><br><br>		
+					</div>
+			</div> <br> <hr>
+			<div class="historia_RA">
+					<!-- 5 -->
+					<a name="subindice5"></a>
+					<h2>A futuro</h2>
+					<p>Se espera que la realidad aumentada domine distintos mercados,gracias a la optimizacion laboral que se consigue
+							mediante esta tecnologia, desde la capacitacion mediante hologramas a tiempo real, o la supervision de un
+							profesional desde la comunidad de su casa con el uso de gafas de realidad aumentada que le permitan verlo todo en primera persona y trasmitirle al trabajador una ventana con su imagen.
+					</p> <br>
+					<div class="historia_RA_3_3">
+						<p>
+							Desde el mundo de los deportes, hasta el mundo de la moda, todo los mercados vean con buenos ojos la realidad
+								aumentada gracias a las capacidades que esta tiene,permitiendo el trasmitr informacion de primera mano y
+								generar simulaciones de prmera mano gracias a hologramas y softwares especializado, situacion que con la pandemia se a intensificado la necesidad de ello.
+						</p> <br>
+						<img src="img/futuro_ar.webp" alt=""> <br>
+					</div> <br> <hr>
+					<iframe width="500px" height="270px" src="https://www.youtube.com/embed/A-RuhUsOX6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>	
+	</div>
+	       <center>
+	        <div>
+				<button class="boton">
+					<a href="mas_realidad_aumentada.html"> AVERIGUA MÁS SOBRE LA REALIDAD AUMENTADA </a>
+				</button>
+			</div>
+		    </center>
 		<footer>
 			<div class="container_footer">
 				<div class="box_footer">
@@ -108,7 +209,9 @@
 					<div class="logo_footer">
 						<img src="Imagen/logo.jpg" alt="logo">
 					</div>
-					<div class="terms"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea esse sapiente soluta. Aut possimus non, aliquid soluta odit temporibus fugiat dolor quam iure placeat laudantium praesentium eum nesciunt nostrum.</p></div>
+					<div class="terms">
+						<p>Beyond expectations</p>
+					</div>
 				</div>
 				<div class="box_footer">
 					<h2>Realidad<br> Aumentada</h2>
@@ -117,16 +220,14 @@
 					<a href="#">Aplicaciones</a>
 					<a href="#">Trabajos Futuros</a>
 				</div>
-	
+
 				<div class="box_footer">
 					<h2>Universidad <br>de los Llanos</h2>
 					<a href="#">Introducción a la Ing. de sistemas</a>
 					<a href="#">Trabajo de primer semestre</a>
 					<a href="#">Grupo de Realidad Aumentada</a>
-					
-					
 				</div>
-	
+
 				<div class="box_footer">
 					<h2>Redes Sociales</h2>
 					<a href="https://www.facebook.com/groups/ARlatam"><i class="fab fa-facebook-square"></i> Facebook</a>
@@ -136,9 +237,10 @@
 			</div>
 			<div class="box_copy">
 				<hr>
-				<p>Todos los derechos reservados © 2022
-				<b>Team-Realidad aumentada</b></p>
+				<p>.....Todos los derechos reservados © 2022 <b>Team-Realidad aumentada</b></p>
 			</div>
-		</footer>
-	</body>
+
+	</footer> 
+
+</body>
 </html>

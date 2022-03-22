@@ -1,0 +1,60 @@
+body{
+    background: black;
+}
+p{  
+    font-family: Verdana, Arial, "Times New Roman";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+table{
+    color: white;
+}
+
+td{
+    font-family:Tahoma;
+    font-size:15pt;
+}
+
+.estilotabla{
+    text-align: center;
+    background-color: black;
+    border-style:solid;
+    border-color:greenyellow;
+    border-width:2px;
+}
+
+.estilocelda{
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    font-size:12pt;
+}
+
+.boton1{
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+.realidad{
+    font-family: cursive; "Comic Sans", Arial, "Times New Roman";
+    font-size: 20px;
+    font-weight: !important;
+    text-align: left;
+    color: lightgoldenrodyellow;
+}
+
+.lista{
+    font-style: italic;
+    font-family: cursive; 
+
+}
